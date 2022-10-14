@@ -106,7 +106,6 @@ function lifeInDots() {
 
         // ----------------------------- DOCUMENT CONTEXT --------------------------------
         document.getElementById("age").innerHTML = Math.floor(age);
-        // birth-date minimum is set to 1900-01-01 and maximum to today
         document.getElementById("birth-date").setAttribute("max", new Date().toISOString().split("T")[0]);
         document.getElementById("birth-date").setAttribute("min", "1900-01-01");
 }
