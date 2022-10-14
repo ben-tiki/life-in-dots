@@ -31,7 +31,14 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-    }   
+    } 
+    
+    #stats {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 
     #age-content {
         display: flex;
@@ -64,6 +71,8 @@
                 <p>Age: <span id="age"></span></p>
                 <input type="date" id="birth-date" value="2000-01-01" timezone="[[timezone]]">
             </div>
+            <!-- motivational quote -->
+            <p id="quote"></p>
         </div>
 
         <!-- svg to populate with d3 -->
@@ -80,5 +89,6 @@
 <!-- import d3 graphing library -->
 <script src="https://d3js.org/d3.v6.min.js"></script>
 <script src="lifeInDots.js"></script>
+<script src="motivationQuotes.js"></script>
 
 </html>

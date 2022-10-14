@@ -5,7 +5,7 @@ Visualize your life in an animated pictogram developed with D3 JS Library!
 [dots.webm](https://user-images.githubusercontent.com/101474762/195756499-3627333d-566a-4e23-ae6c-c24cb6e701e8.webm)
 
 # Explanation
--  Each dot represents a week of your life.
+-  Each dot represents a week of your life
 -  Each column represents one of the 52 weeks in a year
 -  Each row represents a Year
 -  Red dots represent the weeks you were alive

@@ -48,7 +48,7 @@ function lifeInDots() {
             // MOUSE ACTIONS 
             .on("mouseover", function (d) {
                 d3.select(this).attr("r", circleRadius * 1.5);
-                d3.select(this).attr("stroke", "#FFD700");
+                d3.select(this).attr("stroke", "#808080");
                 d3.select(this).attr("stroke-width", 1);
             })
             .on("mouseout", function (d) {
@@ -103,13 +103,8 @@ function lifeInDots() {
             .attr("dx", circleRadius * 1.5 + xLabelSpacing / 1.5)
             .attr("dy", circleRadius * 1.5 + yLabelSpacing)
             .text(function (d) {return d;});
-
-        // ----------------------------- DOCUMENT CONTEXT --------------------------------
-        document.getElementById("age").innerHTML = Math.floor(age);
-        document.getElementById("birth-date").setAttribute("max", new Date().toISOString().split("T")[0]);
-        document.getElementById("birth-date").setAttribute("min", "1900-01-01");
+            
 }
-
 
 // ------------------------------ EVENT LISTENERS --------------------------------
 // exexcute function at page load
