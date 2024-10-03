@@ -12,5 +12,5 @@ Visualize your life in an animated pictogram developed with D3 JS Library!
 -  Black dots are the weeks that you have not lived yet
 
 ## Credits
-This projects is based on the [Your life in Weeks](http://waitbutwhy.com/2014/05/life-weeks.html) post by Tim Urban, from [Wait But Why](http://waitbutwhy.com/).
+This project is based on the [Your life in Weeks](http://waitbutwhy.com/2014/05/life-weeks.html) post by Tim Urban, from [Wait But Why](http://waitbutwhy.com/).
 And [Your life Repo](https://github.com/bryanbraun/your-life) by Bryan Braun and Rajan Chavda.
